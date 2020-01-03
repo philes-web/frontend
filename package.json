@@ -1,0 +1,47 @@
+{
+	"name": "<name>",
+	"version": "0.1.0",
+	"description": "<desc>",
+	"main": "js/main.js",
+	"scripts": {
+		"build": "gulp rebuild"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/<github_org>/<base_name>.git"
+	},
+	"keywords": [],
+	"author": "Trevor Sears <trevorsears.main@gmail.com>",
+	"license": "GPL-3.0-or-later",
+	"bugs": {
+		"url": "https://github.com/<github_org>/<base_name>/issues"
+	},
+	"homepage": "https://github.com/<github_org>/<base_name>#readme",
+	"dependencies": {
+		"regenerator-runtime": "^0.13.2"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.4.5",
+		"@babel/preset-env": "^7.4.5",
+		"babel-loader": "^8.0.6",
+		"babelify": "^10.0.0",
+		"browserify": "^16.2.3",
+		"del": "^4.1.1",
+		"gulp": "^4.0.2",
+		"gulp-babel": "^8.0.0",
+		"gulp-clean-css": "^4.2.0",
+		"gulp-htmlmin": "^5.0.1",
+		"gulp-imagemin": "^6.0.0",
+		"gulp-sass": "^4.0.2",
+		"gulp-sourcemaps": "^2.6.5",
+		"gulp-typescript": "^5.0.1",
+		"gulp-uglify-es": "^1.0.4",
+		"gulp-webserver": "^0.9.1",
+		"typescript": "^3.5.2",
+		"vinyl-buffer": "^1.0.1",
+		"vinyl-source-stream": "^2.0.0",
+		"webpack": "^4.35.3",
+		"webpack-cli": "^3.3.5",
+		"webpack-loader": "0.0.1"
+	}
+}

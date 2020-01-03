@@ -1,0 +1,5 @@
+# NPM's node_modules directory.
+node_modules/
+
+# Sass's cache directory.
+styles/sass/.sass-cache/
